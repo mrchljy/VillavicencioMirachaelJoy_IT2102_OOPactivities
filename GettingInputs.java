@@ -33,5 +33,6 @@ import java.util.Scanner;
             System.out.println("Title:" + songtitle);
             System.out.println("Artist:" + artist);
 
+                input.close();
         }
     }
