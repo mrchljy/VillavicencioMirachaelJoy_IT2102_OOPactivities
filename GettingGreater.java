@@ -29,5 +29,7 @@ class GettingGreater{
         System.out.println("a: " +num);
         System.out.println("1: " +num1);
 
+        input.close();
+
     }
 }
