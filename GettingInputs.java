@@ -14,24 +14,24 @@ import java.util.Scanner;
             System.out.print("Enter the genre: ");
             String genre = input.nextLine();
 
-            System.out.print("Enter the album: ");
+            System.out.print("Enter the album:");
             String album = input.nextLine();
 
-            System.out.print("Enter the song title: ");
+            System.out.print("Enter the song title:");
             String songtitle = input.nextLine();
 
-            System.out.print("Enter the artist: ");
+            System.out.print("Enter the artist:");
             String artist = input.nextLine();
 
             System.out.println("----------------------------------: ");
             System.out.println("            SONG DETAILS            ");
             System.out.println("----------------------------------: ");
 
-            System.out.println("Year: " + year);
-            System.out.println("Genre: " + genre);
-            System.out.println("Album: " + album);
-            System.out.println("Title: " + songtitle);
-            System.out.println("Artist: " + artist);
+            System.out.println("Year:" + year);
+            System.out.println("Genre:" + genre);
+            System.out.println("Album:" + album);
+            System.out.println("Title:" + songtitle);
+            System.out.println("Artist:" + artist);
 
         }
     }
